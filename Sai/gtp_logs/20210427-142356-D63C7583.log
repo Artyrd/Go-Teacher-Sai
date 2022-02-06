@@ -1,0 +1,244 @@
+2021-04-27 14:23:56+1000: GTP Engine starting...
+2021-04-27 14:23:56+1000: KataGo v1.8.2
+2021-04-27 14:23:56+1000: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2021-04-27 14:23:56+1000: Using 10 CPU thread(s) for search
+2021-04-27 14:23:56+1000: nnRandSeed0 = 6170171978684183395
+2021-04-27 14:23:56+1000: After dedups: nnModelFile0 = ..\Engines\katago-v1.8.2-opencl-windows-x64\g170-b40c256x2-s5095420928-d1229425124.bin.gz useFP16 auto useNHWC auto
+2021-04-27 14:23:57+1000: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 1.2 CUDA 11.1.96)
+2021-04-27 14:23:57+1000: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2021-04-27 14:23:57+1000: Found OpenCL Device 0: GeForce GTX 1070 Ti (NVIDIA Corporation) (score 11000102)
+2021-04-27 14:23:57+1000: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 1.2 CUDA 11.1.96)
+2021-04-27 14:23:57+1000: Using OpenCL Device 0: GeForce GTX 1070 Ti (NVIDIA Corporation) OpenCL 1.2 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid)
+2021-04-27 14:23:57+1000: Loaded tuning parameters from: C:\Users\danie\Documents\Go Games\Go Teacher Sai\Engines\katago-v1.8.2-opencl-windows-x64/KataGoData/opencltuning/tune8_gpuGeForceGTX1070Ti_x19_y19_c256_mv8.txt
+2021-04-27 14:23:58+1000: OpenCL backend thread 0: Model version 8
+2021-04-27 14:23:58+1000: OpenCL backend thread 0: Model name: g170-b40c256x2-s5095420928-d1229425124
+2021-04-27 14:24:03+1000: OpenCL backend thread 0: FP16Storage false FP16Compute false FP16TensorCores false
+2021-04-27 14:24:03+1000: Loaded neural net with nnXLen 19 nnYLen 19
+2021-04-27 14:24:03+1000: Loaded config C:\Users\danie\Documents\Go Games\Go Teacher Sai\Engines\katago-v1.8.2-opencl-windows-x64/default_gtp.cfg
+2021-04-27 14:24:03+1000: Loaded model ..\Engines\katago-v1.8.2-opencl-windows-x64\g170-b40c256x2-s5095420928-d1229425124.bin.gz
+2021-04-27 14:24:03+1000: Model name: g170-b40c256x2-s5095420928-d1229425124
+2021-04-27 14:24:03+1000: GTP ready, beginning main protocol loop
+2021-04-27 14:24:15+1000: Controller: loadsgf sgf_files/Sai_W_vs_Human_B_2021-04-27_14-24-11.sgf
+2021-04-27 14:24:15+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 14:24:15+1000: = 
+2021-04-27 14:24:15+1000: Controller: genmove white
+2021-04-27 14:24:18+1000: MoveNum: 0 HASH: 399178EAA13E7B3665350D3C481B629B
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . @ . . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . . . . .
+ 3 . . . X . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.172
+Root visits: 509
+New playouts: 509
+NN rows: 395
+NN batches: 81
+NN avg batch size: 4.87654
+PV: D16 Q4 Q16 D5 R3 Q3 R4 Q5 R6 C17
+Tree:
+: T  19.81c W  19.44c S   0.37c ( +1.5 L  +0.8) N     509  --  D16 Q4 Q16 D5 R3 Q3 R4
+---White(^)---
+D16 : T  20.55c W  20.16c S   0.39c ( +1.6 L  +0.9) LCB   19.57c P 37.36% WF 162.6 PSV     266 N     161  --  D16 Q4 Q16 D5 R3 Q3 R4 Q5
+Q4  : T  19.92c W  19.62c S   0.30c ( +1.5 L  +0.9) LCB   18.75c P 30.30% WF 134.0 PSV     119 N     134  --  Q4 D16 Q16 R3 R4 Q3 P4 O3
+Q16 : T  19.75c W  19.37c S   0.38c ( +1.5 L  +0.9) LCB   18.57c P 17.19% WF 124.7 PSV      65 N     125  --  Q16 D16 Q4 R3 R4 Q3 P4 O3
+Q3  : T  18.71c W  18.45c S   0.26c ( +1.4 L  +0.8) LCB   14.85c P  2.39% WF  19.8 PSV       7 N      20  --  Q3 Q16 D16 R5 C5 P4
+C16 : T  18.10c W  17.86c S   0.24c ( +1.3 L  +0.7) LCB   13.58c P  2.27% WF  13.8 PSV       7 N      14  --  C16 Q4 Q16 E17 G16
+Q17 : T  18.85c W  18.33c S   0.52c ( +1.4 L  +0.7) LCB   14.32c P  1.90% WF  14.8 PSV       6 N      15  --  Q17 Q4 D16 R15 D5 C5 C6
+D17 : T  17.85c W  17.33c S   0.53c ( +1.2 L  +0.7) LCB   14.13c P  2.11% WF  11.8 PSV       6 N      12  --  D17 Q4 Q16 C15 D5 C5
+R16 : T  18.28c W  17.73c S   0.55c ( +1.3 L  +0.7) LCB   13.62c P  1.94% WF  11.8 PSV       6 N      12  --  R16 D16 Q4 P17 Q15 R3 Q3
+R4  : T  18.40c W  17.91c S   0.50c ( +1.3 L  +0.7) LCB   13.67c P  1.73% WF  11.8 PSV       5 N      12  --  R4 D16 Q16 P3 Q5
+C17 : T  17.30c W  16.45c S   0.85c ( +1.2 L  +0.6) LCB -211.29c P  0.19% WF   2.9 PSV       0 N       3  --  C17 Q4 Q16
+
+2021-04-27 14:24:18+1000: = D16
+2021-04-27 14:24:18+1000: Controller: showboard
+2021-04-27 14:24:18+1000: = MoveNum: 1 HASH: 85ABD3217489B58BDA48503A5A731D62
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . O1. . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . . . . .
+ 3 . . . X . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":7.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2021-04-27 14:25:20+1000: Controller: loadsgf sgf_files/Sai_W_vs_Human_B_2021-04-27_14-24-11.sgf
+2021-04-27 14:25:20+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 14:25:20+1000: = 
+2021-04-27 14:25:20+1000: Controller: genmove white
+2021-04-27 14:25:21+1000: MoveNum: 0 HASH: 399178EAA13E7B3665350D3C481B629B
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . @ . . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . . . . .
+ 3 . . . X . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 0.11
+Root visits: 509
+New playouts: 509
+NN rows: 18
+NN batches: 4
+NN avg batch size: 4.5
+PV: D16 Q4 Q16 D5 R3 Q3 R4 Q5 R6 C17
+Tree:
+: T  19.90c W  19.53c S   0.36c ( +1.5 L  +0.9) N     509  --  D16 Q4 Q16 D5 R3 Q3 R4
+---White(^)---
+D16 : T  20.69c W  20.19c S   0.50c ( +1.6 L  +0.9) LCB   19.71c P 37.36% WF 169.8 PSV     307 N     168  --  D16 Q4 Q16 D5 R3 Q3 R4 Q5
+Q4  : T  19.84c W  19.62c S   0.22c ( +1.5 L  +0.9) LCB   18.66c P 30.30% WF 140.6 PSV     119 N     141  --  Q4 D16 Q16 R3 R4 Q3 P4 O3
+Q16 : T  19.80c W  19.46c S   0.35c ( +1.5 L  +0.9) LCB   18.63c P 17.19% WF 122.6 PSV      67 N     123  --  Q16 D16 Q4 R3 R4 Q3 P4 O3
+C16 : T  18.63c W  18.35c S   0.28c ( +1.4 L  +0.7) LCB   15.34c P  2.27% WF  14.8 PSV       7 N      15  --  C16 Q4 Q16 E17 G16
+Q3  : T  18.29c W  18.10c S   0.19c ( +1.4 L  +0.8) LCB   13.95c P  2.39% WF  13.8 PSV       7 N      14  --  Q3 D16 Q16 R17 R16
+Q17 : T  19.16c W  18.63c S   0.53c ( +1.4 L  +0.7) LCB   15.08c P  1.90% WF  13.9 PSV       6 N      14  --  Q17 Q4 D16 R15 D5 C5 C6
+D17 : T  17.42c W  17.16c S   0.26c ( +1.2 L  +0.7) LCB   13.18c P  2.11% WF  10.8 PSV       6 N      11  --  D17 Q4 Q16 C15 D5 C5
+R16 : T  17.94c W  17.72c S   0.22c ( +1.3 L  +0.7) LCB   12.26c P  1.94% WF  10.8 PSV       5 N      11  --  R16 D16 Q4 P17 Q15 R3 Q3
+R4  : T  18.66c W  18.01c S   0.65c ( +1.3 L  +0.7) LCB   13.47c P  1.73% WF  10.9 PSV       5 N      11  --  R4 D16 Q16 P3 Q5
+
+2021-04-27 14:25:21+1000: = D16
+2021-04-27 14:25:21+1000: Controller: showboard
+2021-04-27 14:25:21+1000: = MoveNum: 1 HASH: 85ABD3217489B58BDA48503A5A731D62
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . O1. . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . . . . .
+ 3 . . . X . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":7.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2021-04-27 14:25:31+1000: Controller: loadsgf sgf_files/Sai_W_vs_Human_B_2021-04-27_14-24-11.sgf
+2021-04-27 14:25:31+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 14:25:31+1000: = 
+2021-04-27 14:25:31+1000: Controller: genmove white
+2021-04-27 14:25:34+1000: MoveNum: 0 HASH: B9F84566C2EE5D3782430C949E27E49B
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . O . . . . . . . . . . . . @ . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . . X . .
+ 3 . . . X . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.421
+Root visits: 509
+New playouts: 509
+NN rows: 497
+NN batches: 101
+NN avg batch size: 4.92079
+PV: Q16 D6 P4 P3 O3 Q3 O4 R6 K4 C17 D17 C16 C14 C15
+Tree:
+: T  20.93c W  20.31c S   0.62c ( +1.6 L  +0.9) N     509  --  Q16 D6 P4 P3 O3 Q3 O4
+---White(^)---
+Q16 : T  21.64c W  20.97c S   0.67c ( +1.7 L  +0.9) LCB   20.75c P 54.82% WF 268.3 PSV     360 N     266  --  Q16 D6 P4 P3 O3 Q3 O4 R6
+R16 : T  21.06c W  20.47c S   0.59c ( +1.6 L  +0.9) LCB   19.96c P 36.32% WF 177.6 PSV     159 N     178  --  R16 P17 D5 C5 C6 C4 D6 F4
+Q17 : T  20.08c W  19.33c S   0.75c ( +1.5 L  +0.8) LCB   17.95c P  5.77% WF  40.4 PSV      21 N      41  --  Q17 R15 D5 C5 C6 C4 D6
+R17 : T  15.39c W  15.10c S   0.29c ( +1.0 L  +0.5) LCB    4.46c P  0.34% WF   8.6 PSV       0 N       9  --  R17 D5 P4 M3 Q6
+C5  : T  11.85c W  11.79c S   0.06c ( +0.6 L  +0.4) LCB  -28.86c P  0.27% WF   4.7 PSV       0 N       5  --  C5 Q16 E4 E3 F4
+Q15 : T  11.34c W  11.48c S  -0.14c ( +0.6 L  +0.4) LCB  -25.83c P  0.17% WF   3.7 PSV       0 N       4  --  Q15 R17 P17 Q16
+R15 : T  10.16c W  10.61c S  -0.46c ( +0.5 L  +0.3) LCB -203.77c P  0.13% WF   2.8 PSV       0 N       3  --  R15 R17 P16
+P16 : T  10.16c W  10.53c S  -0.37c ( +0.5 L  +0.4) LCB -280.00c P  0.17% WF   0.9 PSV       0 N       1  --  P16
+P17 : T   9.98c W  10.42c S  -0.44c ( +0.4 L  +0.3) LCB -280.00c P  0.13% WF   0.9 PSV       0 N       1  --  P17
+
+2021-04-27 14:25:34+1000: = R16
+2021-04-27 14:25:34+1000: Controller: showboard
+2021-04-27 14:25:34+1000: = MoveNum: 1 HASH: 1A7A6378222EC46EE7F71F19959C723E
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . O . . . . . . . . . . . . O1. .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . . X . .
+ 3 . . . X . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+Next player: Black
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":7.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2021-04-27 14:27:37+1000: All cleaned up, quitting

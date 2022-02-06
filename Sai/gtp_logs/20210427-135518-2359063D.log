@@ -1,0 +1,70 @@
+2021-04-27 13:55:18+1000: GTP Engine starting...
+2021-04-27 13:55:18+1000: KataGo v1.8.2
+2021-04-27 13:55:18+1000: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2021-04-27 13:55:18+1000: Using 10 CPU thread(s) for search
+2021-04-27 13:55:18+1000: nnRandSeed0 = 11004802138652598961
+2021-04-27 13:55:18+1000: After dedups: nnModelFile0 = ..\Engines\katago-v1.8.2-opencl-windows-x64\g170-b40c256x2-s5095420928-d1229425124.bin.gz useFP16 auto useNHWC auto
+2021-04-27 13:55:20+1000: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 1.2 CUDA 11.1.96)
+2021-04-27 13:55:20+1000: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2021-04-27 13:55:20+1000: Found OpenCL Device 0: GeForce GTX 1070 Ti (NVIDIA Corporation) (score 11000102)
+2021-04-27 13:55:20+1000: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 1.2 CUDA 11.1.96)
+2021-04-27 13:55:20+1000: Using OpenCL Device 0: GeForce GTX 1070 Ti (NVIDIA Corporation) OpenCL 1.2 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid)
+2021-04-27 13:55:20+1000: Loaded tuning parameters from: C:\Users\danie\Documents\Go Games\Go Teacher Sai\Engines\katago-v1.8.2-opencl-windows-x64/KataGoData/opencltuning/tune8_gpuGeForceGTX1070Ti_x19_y19_c256_mv8.txt
+2021-04-27 13:55:20+1000: OpenCL backend thread 0: Model version 8
+2021-04-27 13:55:20+1000: OpenCL backend thread 0: Model name: g170-b40c256x2-s5095420928-d1229425124
+2021-04-27 13:55:25+1000: OpenCL backend thread 0: FP16Storage false FP16Compute false FP16TensorCores false
+2021-04-27 13:55:25+1000: Loaded neural net with nnXLen 19 nnYLen 19
+2021-04-27 13:55:25+1000: Loaded config C:\Users\danie\Documents\Go Games\Go Teacher Sai\Engines\katago-v1.8.2-opencl-windows-x64/default_gtp.cfg
+2021-04-27 13:55:25+1000: Loaded model ..\Engines\katago-v1.8.2-opencl-windows-x64\g170-b40c256x2-s5095420928-d1229425124.bin.gz
+2021-04-27 13:55:25+1000: Model name: g170-b40c256x2-s5095420928-d1229425124
+2021-04-27 13:55:25+1000: GTP ready, beginning main protocol loop
+2021-04-27 13:55:32+1000: Controller: loadsgf sgf_files/Sai_W_vs_Human_B_2021-04-27_13-55-28.sgf
+2021-04-27 13:55:32+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 13:55:32+1000: = 
+2021-04-27 13:55:32+1000: Controller: genmove white
+2021-04-27 13:55:34+1000: MoveNum: 0 HASH: 20D027FF3D8F63642B79C3F658C233F1
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . @ . . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . X . . . . . . . . . . . . . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.079
+Root visits: 509
+New playouts: 509
+NN rows: 382
+NN batches: 79
+NN avg batch size: 4.83544
+PV: D16 Q4 Q16 R17 R16 Q17 P16 O18
+Tree:
+: T  18.75c W  18.41c S   0.34c ( +1.4 L  +0.8) N     509  --  D16 Q4 Q16 R17 R16 Q17 P16
+---White(^)---
+D16 : T  19.25c W  18.84c S   0.40c ( +1.4 L  +0.8) LCB   18.16c P 26.32% WF 138.7 PSV     166 N     138  --  D16 Q4 Q16 R17 R16 Q17 P16 O18
+Q16 : T  19.23c W  18.88c S   0.35c ( +1.4 L  +0.8) LCB   18.11c P 31.45% WF 153.8 PSV     153 N     153  --  Q16 D16 Q4 R3 R4 Q3 P4 O3
+Q4  : T  19.08c W  18.73c S   0.35c ( +1.4 L  +0.8) LCB   18.11c P 25.79% WF 140.4 PSV     122 N     140  --  Q4 D16 Q16 R17 R16 Q17 P16 O17
+Q17 : T  16.76c W  16.58c S   0.18c ( +1.1 L  +0.6) LCB   13.79c P  2.63% WF  18.6 PSV       8 N      19  --  Q17 Q4 D16 R15 O16
+R16 : T  16.21c W  16.07c S   0.14c ( +1.1 L  +0.6) LCB   11.85c P  2.86% WF  15.6 PSV       8 N      16  --  R16 D16 Q4 P16 P17 O17
+C16 : T  16.61c W  16.49c S   0.13c ( +1.2 L  +0.6) LCB   13.23c P  1.99% WF  12.7 PSV       6 N      13  --  C16 Q16 Q4 E17 D14
+Q3  : T  16.31c W  15.87c S   0.44c ( +1.1 L  +0.6) LCB   10.21c P  1.68% WF   9.8 PSV       5 N      10  --  Q3 Q16 D16 R5 P4
+R4  : T  15.73c W  15.73c S  -0.00c ( +1.1 L  +0.6) LCB    9.51c P  1.80% WF   7.8 PSV       5 N       8  --  R4 Q16 D16 P3 Q6
+D17 : T  15.35c W  15.49c S  -0.13c ( +1.1 L  +0.6) LCB    7.62c P  1.80% WF   6.8 PSV       5 N       7  --  D17 Q4 Q16 D15
+C17 : T  15.33c W  14.93c S   0.40c ( +1.1 L  +0.6) LCB  -80.65c P  0.36% WF   3.9 PSV       1 N       4  --  C17 Q16 R4
+
+2021-04-27 13:55:34+1000: = D16
+2021-04-27 13:59:06+1000: All cleaned up, quitting

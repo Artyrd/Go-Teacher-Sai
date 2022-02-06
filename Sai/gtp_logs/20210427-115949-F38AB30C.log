@@ -1,0 +1,6 @@
+2021-04-27 11:59:49+1000: GTP Engine starting...
+2021-04-27 11:59:49+1000: KataGo v1.8.2
+2021-04-27 11:59:49+1000: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2021-04-27 11:59:49+1000: Using 10 CPU thread(s) for search
+2021-04-27 11:59:49+1000: nnRandSeed0 = 14206977540805214387
+2021-04-27 11:59:49+1000: After dedups: nnModelFile0 = g170-b40c256x2-s5095420928-d1229425124.bin.gz useFP16 auto useNHWC auto

@@ -1,0 +1,9 @@
+When running katago, to list commands:
+    list_commands
+
+Go Text Protocol:
+http://www.lysator.liu.se/~gunnar/gtp/
+    GTP PDF: http://www.lysator.liu.se/~gunnar/gtp/gtp2-spec-draft2.pdf
+
+Katago GTP Extensions:
+https://github.com/lightvector/KataGo/blob/master/docs/GTP_Extensions.md

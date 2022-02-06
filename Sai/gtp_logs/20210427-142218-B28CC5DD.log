@@ -1,0 +1,96 @@
+2021-04-27 14:22:18+1000: GTP Engine starting...
+2021-04-27 14:22:18+1000: KataGo v1.8.2
+2021-04-27 14:22:18+1000: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2021-04-27 14:22:18+1000: Using 10 CPU thread(s) for search
+2021-04-27 14:22:18+1000: nnRandSeed0 = 5343239812549818999
+2021-04-27 14:22:18+1000: After dedups: nnModelFile0 = ..\Engines\katago-v1.8.2-opencl-windows-x64\g170-b40c256x2-s5095420928-d1229425124.bin.gz useFP16 auto useNHWC auto
+2021-04-27 14:22:20+1000: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 1.2 CUDA 11.1.96)
+2021-04-27 14:22:20+1000: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2021-04-27 14:22:20+1000: Found OpenCL Device 0: GeForce GTX 1070 Ti (NVIDIA Corporation) (score 11000102)
+2021-04-27 14:22:20+1000: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 1.2 CUDA 11.1.96)
+2021-04-27 14:22:20+1000: Using OpenCL Device 0: GeForce GTX 1070 Ti (NVIDIA Corporation) OpenCL 1.2 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid)
+2021-04-27 14:22:20+1000: Loaded tuning parameters from: C:\Users\danie\Documents\Go Games\Go Teacher Sai\Engines\katago-v1.8.2-opencl-windows-x64/KataGoData/opencltuning/tune8_gpuGeForceGTX1070Ti_x19_y19_c256_mv8.txt
+2021-04-27 14:22:20+1000: OpenCL backend thread 0: Model version 8
+2021-04-27 14:22:20+1000: OpenCL backend thread 0: Model name: g170-b40c256x2-s5095420928-d1229425124
+2021-04-27 14:22:25+1000: OpenCL backend thread 0: FP16Storage false FP16Compute false FP16TensorCores false
+2021-04-27 14:22:25+1000: Loaded neural net with nnXLen 19 nnYLen 19
+2021-04-27 14:22:25+1000: Loaded config C:\Users\danie\Documents\Go Games\Go Teacher Sai\Engines\katago-v1.8.2-opencl-windows-x64/default_gtp.cfg
+2021-04-27 14:22:25+1000: Loaded model ..\Engines\katago-v1.8.2-opencl-windows-x64\g170-b40c256x2-s5095420928-d1229425124.bin.gz
+2021-04-27 14:22:25+1000: Model name: g170-b40c256x2-s5095420928-d1229425124
+2021-04-27 14:22:25+1000: GTP ready, beginning main protocol loop
+2021-04-27 14:22:39+1000: Controller: loadsgf sgf_files/Sai_B_vs_Human_W_2021-04-27_14-22-38.sgf
+2021-04-27 14:22:39+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 14:22:39+1000: = 
+2021-04-27 14:22:39+1000: Controller: genmove black
+2021-04-27 14:22:41+1000: MoveNum: 0 HASH: CDCBC1F514D7E680FACD226074256633
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . . . . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . @ . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.203
+Root visits: 509
+New playouts: 509
+NN rows: 404
+NN batches: 83
+NN avg batch size: 4.86747
+PV: Q4 D16 Q16 D4 C17 C16 D17
+Tree:
+: T -19.88c W -19.41c S  -0.47c ( -1.5 L  -0.8) N     509  --  Q4 D16 Q16 D4 C17 C16 D17
+---Black(^)---
+Q4  : T -19.09c W -18.79c S  -0.30c ( -1.4 L  -0.8) LCB  -20.41c P  9.25% WF  59.5 PSV      81 N      59  --  Q4 D16 Q16 D4 C17 C16 D17
+D4  : T -19.19c W -18.78c S  -0.41c ( -1.4 L  -0.8) LCB  -20.46c P  9.45% WF  59.4 PSV      59 N      59  --  D4 Q16 D16 Q4 R3 R4 Q3
+D16 : T -19.30c W -19.00c S  -0.30c ( -1.5 L  -0.8) LCB  -20.61c P  9.60% WF  58.3 PSV      58 N      58  --  D16 D4 Q4 Q16 R17 R16
+Q16 : T -19.11c W -18.87c S  -0.25c ( -1.5 L  -0.8) LCB  -20.60c P  9.08% WF  58.5 PSV      58 N      58  --  Q16 D16 D4 Q4 C17 D17 C16
+R16 : T -19.73c W -19.25c S  -0.49c ( -1.5 L  -0.8) LCB  -22.09c P  6.17% WF  34.0 PSV      34 N      34  --  R16 D16 Q4 D4 P16 R3 R4
+R4  : T -19.84c W -19.39c S  -0.46c ( -1.5 L  -0.8) LCB  -21.76c P  5.85% WF  33.0 PSV      32 N      33  --  R4 D4 Q16 D16 P4 R17 R16
+Q3  : T -19.95c W -19.50c S  -0.45c ( -1.5 L  -0.9) LCB  -22.30c P  6.00% WF  31.9 PSV      32 N      32  --  Q3 Q16 D4 D16 Q5 C3 D3
+D3  : T -20.07c W -19.50c S  -0.57c ( -1.5 L  -0.8) LCB  -21.73c P  5.78% WF  30.9 PSV      30 N      31  --  D3 D16 Q4 Q16 D5 R3 Q3
+C16 : T -20.45c W -19.81c S  -0.63c ( -1.6 L  -0.9) LCB  -22.54c P  6.06% WF  29.8 PSV      29 N      30  --  C16 Q16 D4 Q4 E16 C3
+C4  : T -20.39c W -19.82c S  -0.57c ( -1.6 L  -0.9) LCB  -22.99c P  5.98% WF  29.8 PSV      29 N      30  --  C4 D16 Q4 Q16 R17 Q17
+
+2021-04-27 14:22:41+1000: = Q4
+2021-04-27 14:22:41+1000: Controller: showboard
+2021-04-27 14:22:41+1000: = MoveNum: 1 HASH: 8D78416770C53ECA02DAD0032326F0AB
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . . . . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . X1. . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+Next player: White
+Rules: {"friendlyPassOk":false,"hasButton":false,"ko":"POSITIONAL","komi":7.5,"scoring":"AREA","suicide":true,"tax":"NONE","whiteHandicapBonus":"0"}
+B stones captured: 0
+W stones captured: 0
+2021-04-27 14:23:48+1000: All cleaned up, quitting

@@ -1,0 +1,201 @@
+2021-04-27 14:04:52+1000: GTP Engine starting...
+2021-04-27 14:04:52+1000: KataGo v1.8.2
+2021-04-27 14:04:52+1000: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2021-04-27 14:04:52+1000: Using 10 CPU thread(s) for search
+2021-04-27 14:04:52+1000: nnRandSeed0 = 5445097458063830482
+2021-04-27 14:04:52+1000: After dedups: nnModelFile0 = ..\Engines\katago-v1.8.2-opencl-windows-x64\g170-b40c256x2-s5095420928-d1229425124.bin.gz useFP16 auto useNHWC auto
+2021-04-27 14:04:53+1000: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 1.2 CUDA 11.1.96)
+2021-04-27 14:04:53+1000: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2021-04-27 14:04:53+1000: Found OpenCL Device 0: GeForce GTX 1070 Ti (NVIDIA Corporation) (score 11000102)
+2021-04-27 14:04:53+1000: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 1.2 CUDA 11.1.96)
+2021-04-27 14:04:53+1000: Using OpenCL Device 0: GeForce GTX 1070 Ti (NVIDIA Corporation) OpenCL 1.2 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid)
+2021-04-27 14:04:53+1000: Loaded tuning parameters from: C:\Users\danie\Documents\Go Games\Go Teacher Sai\Engines\katago-v1.8.2-opencl-windows-x64/KataGoData/opencltuning/tune8_gpuGeForceGTX1070Ti_x19_y19_c256_mv8.txt
+2021-04-27 14:04:53+1000: OpenCL backend thread 0: Model version 8
+2021-04-27 14:04:53+1000: OpenCL backend thread 0: Model name: g170-b40c256x2-s5095420928-d1229425124
+2021-04-27 14:04:59+1000: OpenCL backend thread 0: FP16Storage false FP16Compute false FP16TensorCores false
+2021-04-27 14:04:59+1000: Loaded neural net with nnXLen 19 nnYLen 19
+2021-04-27 14:04:59+1000: Loaded config C:\Users\danie\Documents\Go Games\Go Teacher Sai\Engines\katago-v1.8.2-opencl-windows-x64/default_gtp.cfg
+2021-04-27 14:04:59+1000: Loaded model ..\Engines\katago-v1.8.2-opencl-windows-x64\g170-b40c256x2-s5095420928-d1229425124.bin.gz
+2021-04-27 14:04:59+1000: Model name: g170-b40c256x2-s5095420928-d1229425124
+2021-04-27 14:04:59+1000: GTP ready, beginning main protocol loop
+2021-04-27 14:05:12+1000: Controller: loadsgf sgf_files/Sai_W_vs_Human_B_2021-04-27_14-5-8.sgf
+2021-04-27 14:05:12+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 14:05:12+1000: = 
+2021-04-27 14:05:12+1000: Controller: genmove white
+2021-04-27 14:05:14+1000: MoveNum: 0 HASH: 20D027FF3D8F63642B79C3F658C233F1
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . @ . . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . X . . . . . . . . . . . . . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.125
+Root visits: 509
+New playouts: 509
+NN rows: 389
+NN batches: 79
+NN avg batch size: 4.92405
+PV: Q16 D16 Q4 R17 Q17 R16 Q15 S14 C3
+Tree:
+: T  18.65c W  18.30c S   0.35c ( +1.4 L  +0.8) N     509  --  Q16 D16 Q4 R17 Q17 R16 Q15
+---White(^)---
+Q16 : T  19.15c W  18.75c S   0.41c ( +1.4 L  +0.8) LCB   18.01c P 30.05% WF 150.8 PSV     172 N     150  --  Q16 D16 Q4 R17 Q17 R16 Q15 S14
+D16 : T  18.96c W  18.71c S   0.25c ( +1.4 L  +0.8) LCB   17.81c P 27.55% WF 138.3 PSV     133 N     138  --  D16 Q4 Q16 C17 D17 C16 D15
+Q4  : T  19.09c W  18.67c S   0.43c ( +1.4 L  +0.8) LCB   17.97c P 25.45% WF 136.6 PSV     126 N     136  --  Q4 Q16 D16 C17 C16 D17 F17 E17
+R16 : T  16.61c W  16.24c S   0.37c ( +1.1 L  +0.6) LCB   13.92c P  2.70% WF  16.6 PSV       9 N      17  --  R16 D16 Q4 P16 P17 O17 Q17
+Q17 : T  16.82c W  16.48c S   0.34c ( +1.2 L  +0.6) LCB   14.07c P  2.34% WF  15.7 PSV       8 N      16  --  Q17 Q4 D16 R15 P16
+Q3  : T  16.69c W  16.38c S   0.31c ( +1.1 L  +0.6) LCB   12.39c P  2.02% WF  12.7 PSV       6 N      13  --  Q3 Q16 D16 R5 P4
+R4  : T  15.47c W  15.59c S  -0.12c ( +1.1 L  +0.6) LCB   10.35c P  2.30% WF  10.7 PSV       6 N      11  --  R4 Q16 D16 P3 Q6 C17
+D17 : T  16.15c W  16.05c S   0.09c ( +1.1 L  +0.6) LCB   13.84c P  2.15% WF  10.7 PSV       6 N      11  --  D17 Q16 Q4 C15 F16
+C16 : T  17.30c W  16.77c S   0.54c ( +1.2 L  +0.6) LCB   13.33c P  1.54% WF  11.8 PSV       5 N      12  --  C16 Q16 Q4 R3 R4
+C17 : T  14.50c W  14.30c S   0.20c ( +1.0 L  +0.5) LCB  -67.33c P  0.45% WF   3.9 PSV       1 N       4  --  C17 Q16 R4
+
+2021-04-27 14:05:14+1000: = D16
+2021-04-27 14:05:27+1000: Controller: loadsgf sgf_files/Sai_W_vs_Human_B_2021-04-27_14-5-8.sgf
+2021-04-27 14:05:27+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 14:05:27+1000: = 
+2021-04-27 14:05:27+1000: Controller: genmove white
+2021-04-27 14:05:30+1000: MoveNum: 0 HASH: DC590CA68C2A75936C136C931DA9DA90
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . O . . . . . . . . . . . @ . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . X . . . . . . . . . . . X . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.235
+Root visits: 509
+New playouts: 509
+NN rows: 459
+NN batches: 93
+NN avg batch size: 4.93548
+PV: Q16 R17 R16 Q17 P16 O18 C3 D3 C4 C6 C5 D5
+Tree:
+: T  17.69c W  17.35c S   0.33c ( +1.2 L  +0.7) N     509  --  Q16 R17 R16 Q17 P16 O18 C3
+---White(^)---
+Q16 : T  18.10c W  17.67c S   0.43c ( +1.3 L  +0.7) LCB   17.19c P 75.46% WF 382.0 PSV     380 N     380  --  Q16 R17 R16 Q17 P16 O18 C3 D3
+R16 : T  17.00c W  16.92c S   0.07c ( +1.1 L  +0.6) LCB   15.67c P 16.06% WF  87.9 PSV      67 N      89  --  R16 C17 D17 C16 D15 C14 D14 C13
+Q17 : T  16.20c W  16.04c S   0.16c ( +1.0 L  +0.5) LCB   14.80c P  4.36% WF  28.5 PSV      16 N      29  --  Q17 Q15 R15 R14 R16 Q14 O16 Q10
+R17 : T  13.34c W  14.01c S  -0.67c ( +0.8 L  +0.4) LCB   -2.02c P  1.05% WF   6.8 PSV       2 N       7  --  R17 C17 D17 C16 D15
+P16 : T   8.42c W   8.80c S  -0.38c ( +0.3 L  +0.2) LCB -280.00c P  0.20% WF   1.9 PSV       0 N       2  --  P16 R17
+Q15 : T   9.75c W  10.10c S  -0.35c ( +0.4 L  +0.2) LCB -280.00c P  0.19% WF   1.0 PSV       0 N       1  --  Q15
+
+2021-04-27 14:05:30+1000: = Q16
+2021-04-27 14:05:37+1000: Controller: loadsgf sgf_files/Sai_W_vs_Human_B_2021-04-27_14-5-8.sgf
+2021-04-27 14:05:37+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 14:05:37+1000: = 
+2021-04-27 14:05:37+1000: Controller: genmove white
+2021-04-27 14:05:40+1000: MoveNum: 0 HASH: 51F998907BEE744B038634BCA2A78A0C
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . X @ . . . . . . . . . . . . . . .
+16 . . . O . . . . . . . . . . . . O . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . X . . . . . . . . . . . X . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.219
+Root visits: 509
+New playouts: 509
+NN rows: 456
+NN batches: 93
+NN avg batch size: 4.90323
+PV: D17 C16 D15 C14 D14 C13 C15 B15 B14 B16 C12 B13 D13 B12 L17 Q16 R15 Q17 R17 R18 S18 P18
+Tree:
+: T  15.44c W  15.23c S   0.21c ( +1.0 L  +0.5) N     509  --  D17 C16 D15 C14 D14 C13 C15
+---White(^)---
+D17 : T  15.72c W  15.49c S   0.23c ( +1.0 L  +0.5) LCB   14.60c P 71.50% WF 356.3 PSV     355 N     355  --  D17 C16 D15 C14 D14 C13 C15 B15
+C16 : T  15.20c W  15.00c S   0.20c ( +1.0 L  +0.5) LCB   13.79c P 26.33% WF 139.2 PSV     119 N     140  --  C16 D17 E16 F18 O16 C12 R3 Q3
+C3  : T  11.41c W  11.41c S   0.01c ( +0.6 L  +0.4) LCB  -17.86c P  0.13% WF   6.8 PSV       0 N       7  --  C3 C4 D3 E4
+R3  : T   9.66c W  10.12c S  -0.46c ( +0.5 L  +0.3) LCB -153.94c P  0.16% WF   3.8 PSV       0 N       4  --  R3 Q3 D17 C16
+O17 : T   7.24c W   7.72c S  -0.48c ( +0.0 L  +0.0) LCB -280.00c P  0.08% WF   1.9 PSV       0 N       2  --  O17 D17
+
+2021-04-27 14:05:40+1000: = D17
+2021-04-27 14:05:45+1000: Controller: loadsgf sgf_files/Sai_W_vs_Human_B_2021-04-27_14-5-8.sgf
+2021-04-27 14:05:45+1000: Sgf has no rules, using default rules: koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+2021-04-27 14:05:45+1000: = 
+2021-04-27 14:05:45+1000: Controller: genmove white
+2021-04-27 14:05:46+1000: MoveNum: 0 HASH: E07A279D87DDE64111D6D66CEEB0859A
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . X O . . . . . . . . . . . . . . .
+16 . . X O . . . . . . . . . . . . O . .
+15 . . . @ . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . X . . . . . . . . . . . X . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 0.718
+Root visits: 509
+New playouts: 509
+NN rows: 147
+NN batches: 31
+NN avg batch size: 4.74194
+PV: D15 C14 D14 B13 C12 P16 C13 B14 M17 Q14 P15 Q15 Q16 P17
+Tree:
+: T  15.64c W  15.47c S   0.16c ( +1.0 L  +0.5) N     509  --  D15 C14 D14 B13 C12 P16 C13
+---White(^)---
+D15 : T  15.98c W  15.72c S   0.26c ( +1.0 L  +0.5) LCB   14.85c P 74.34% WF 377.1 PSV     375 N     375  --  D15 C14 D14 B13 C12 P16 C13 B14
+C14 : T  14.67c W  14.80c S  -0.13c ( +0.9 L  +0.5) LCB   12.62c P 24.03% WF 126.9 PSV      97 N     129  --  C14 B14 D15 B13 P16 O16 O15 P17
+C15 : T  13.33c W  13.35c S  -0.02c ( +0.8 L  +0.4) LCB  -13.36c P  0.93% WF   3.9 PSV       3 N       4  --  C15 B15 C14 B14
+
+2021-04-27 14:05:46+1000: = D15
+2021-04-27 14:09:00+1000: All cleaned up, quitting
